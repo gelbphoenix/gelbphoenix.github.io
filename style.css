@@ -74,10 +74,6 @@ li {
     border-radius: 50px;
 }
 
-.button {
-    line-height: 100%;
-}
-
 .mobilenav-1{
     display: none !important;
     text-align: right;
