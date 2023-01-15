@@ -1,0 +1,138 @@
+html {
+    background-color: darkgrey;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    padding: 4px;
+    list-style-type: none;
+    font-size: medium;
+    display: flex;
+}
+
+.groundpage {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-box {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #808080;
+}
+
+.logo-box {
+    height: auto;
+}
+
+.left-box50 {
+    width: 50%;
+}
+
+.right-box25 {
+    width: 55%;
+    padding-right: 10px;
+}
+
+.logo-img1 {
+    padding: 8px;
+    width: 325px;
+    height: 140px;
+    object-fit: cover;
+    object-position: 50% 43%;
+}
+
+.logo-img2 {
+    display: none;
+}
+
+.link-menulist {
+    text-align: center;
+    display: flex;
+}
+
+.link-menu {
+    text-align: center;
+    display: flex;
+    background-color: #a0a0a0;
+    border-radius: 50px;
+}
+
+.mobilenav-1{
+    display: none !important;
+    text-align: right;
+}
+
+.mobilenav-2 {
+    background-color: rgba(128, 128, 128, 0.548);
+    text-align: center;
+    display: none;
+}
+
+.link-dropnav {
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    display: table-row;
+    background-color: #a0a0a0;
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .header-box {
+        flex-direction: row;
+        padding: 5px;
+        height: auto;
+    }
+
+    .logo-box {
+        padding: 4px;
+        width: auto;
+    }
+    
+    .logo-img1 {
+        padding: 10px;
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 43%;
+    }
+    .link-menu {
+        display: none;
+    }
+    
+    .mobilenav-1 {
+        display: block !important;
+        padding: 4px;
+    }
+}
+
+@media (max-width: 560px) {
+    .logo-img1 {
+        display: none;
+    }
+    
+    .logo-img2 {
+        display: block;
+        padding: 10px;
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 43%;
+    }
+}
