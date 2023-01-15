@@ -131,6 +131,17 @@ li {
     background-color: #808080;
 }
 
+.footer-box {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    padding-right: 5px;
+}
+
 @media (max-width: 560px) {
     .logo-img1 {
         display: none;
