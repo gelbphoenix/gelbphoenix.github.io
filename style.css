@@ -68,9 +68,14 @@ li {
 
 .link-menu {
     text-align: center;
+    line-height: 100%;
     display: flex;
     background-color: #a0a0a0;
     border-radius: 50px;
+}
+
+.button {
+    line-height: 100%;
 }
 
 .mobilenav-1{
