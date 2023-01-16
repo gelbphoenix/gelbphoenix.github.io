@@ -232,10 +232,7 @@ li {
     justify-content: center;
     align-items: center;
     max-width: 33%;
-}
-
-.content-box-d {
-    padding: 3px;
+    gap: 3px;
 }
 
 .box-botton {
