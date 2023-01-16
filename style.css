@@ -2,8 +2,9 @@
     --ground-color: #a9a9a9;
     --hlight-color: #808080;
     --button-color: #a0a0a0;
+    --button2-color: #858585;
     --font-color: #000000;
-    --color-drop-menu: rgba(128, 128, 128, 0.548);
+    --color-drop-menu: rgba(169, 169, 169, 0.548);
     --alt-color: #ED496F;
 }
 
@@ -104,7 +105,6 @@ li {
     display: none;
     flex-direction: column;
     position: absolute;
-    width: 94.4%;
     left: 18px;
     right: 18px;
 }
@@ -134,7 +134,7 @@ li {
 
 .link-dropnav-container {
     padding: 4px;
-    background-color: var(--button-color);
+    background-color: var(--button2-color);
     border-radius: 50px;
 }
 
