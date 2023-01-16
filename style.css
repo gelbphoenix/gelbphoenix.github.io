@@ -94,6 +94,12 @@ li {
     background-color: #a0a0a0;
 }
 
+.logos {
+    width: 3%;
+    height: 70%;
+    object-fit: fill;
+}
+
 .link-dropnav {
     text-align: center;
     width: 100%;
