@@ -182,6 +182,7 @@ li {
     height: 100%;
     border-radius: 50%;
     border: 7px solid var(--alt-color);
+    font-weight: 500;
 }
 
 .welcome-msg {
