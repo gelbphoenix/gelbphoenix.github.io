@@ -237,6 +237,12 @@ li {
     padding: 3px;
 }
 
+.box-botton {
+    padding: 7px;
+    background-color: var(--button2-color);
+    border-radius: 25px;
+}
+
 @media (max-width: 1800px) {
     .left-box {
         width: 22%;
