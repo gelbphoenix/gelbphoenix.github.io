@@ -96,6 +96,7 @@ li {
     display: none !important;
     text-align: right;
     background-color: var(--button-color);
+    border: 4px solid var(--alt-color);
     border-radius: 50%;
 }
 
