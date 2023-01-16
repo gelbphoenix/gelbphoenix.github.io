@@ -73,6 +73,11 @@ li {
     border-radius: 50px;
 }
 
+.link-menu a{
+    display: flex;
+    align-items: center;
+}
+
 .mobilenav-1{
     display: none !important;
     text-align: right;
