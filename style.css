@@ -162,6 +162,19 @@ li {
         height: auto;
     }
 
+    .logo-img1 {
+        display: none;
+    }
+
+    .logo-img2 {
+        display: block;
+        padding: 10px;
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 43%;
+    }
+    
     h2 {
         font-size: larger;
         font-weight: 600;
@@ -179,18 +192,6 @@ li {
         padding: 4px;
     }
     
-    .logo-img1 {
-        display: none;
-    }
-
-    .logo-img2 {
-        display: block;
-        padding: 10px;
-        width: 50%;
-        height: auto;
-        object-fit: cover;
-        object-position: 50% 43%;
-    }
     .link-menu {
         display: none;
     }
