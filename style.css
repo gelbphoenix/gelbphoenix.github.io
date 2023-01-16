@@ -40,13 +40,13 @@ li {
     height: auto;
 }
 
-.left-box25 {
-    width: 25%;
+.left-box {
+    width: 30%;
 }
 
-.right-box25 {
-    width: 25%;
-    padding-right: 10px;
+.right-box {
+    width: 30%;
+    padding-right: 15px;
 }
 
 .logo-img1 {
@@ -140,7 +140,7 @@ li {
     padding-right: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .header-box {
         flex-direction: row;
         padding: 5px;
