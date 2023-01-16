@@ -40,12 +40,12 @@ li {
     height: auto;
 }
 
-.left-box50 {
-    width: 50%;
+.left-box25 {
+    width: 25%;
 }
 
 .right-box25 {
-    width: 55%;
+    width: 25%;
     padding-right: 10px;
 }
 
