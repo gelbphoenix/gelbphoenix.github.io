@@ -170,6 +170,8 @@ li {
 }
 
 .welcome {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -189,6 +191,7 @@ li {
 }
 
 .welcome-bl {
+    padding-left: 10px;
     width: 30%;
     display: flex;
     justify-content:center;
