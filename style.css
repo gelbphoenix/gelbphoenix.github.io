@@ -4,6 +4,7 @@
     --button-color: #a0a0a0;
     --font-color: #000000;
     --color-drop-menu: rgba(128, 128, 128, 0.548);
+    --alt-color: #ED496F;
 }
 
 html {
@@ -55,6 +56,8 @@ li {
 .right-box {
     width: 15%;
     padding-right: 15px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo-img1 {
@@ -90,6 +93,8 @@ li {
 .mobilenav-1{
     display: none !important;
     text-align: right;
+    background-color: var(--button-color);
+    border-radius: 50%;
 }
 
 .mobilenav-2 {
@@ -98,6 +103,10 @@ li {
     align-items: center;
     display: none;
     flex-direction: column;
+    position: absolute;
+    width: 94.4%;
+    left: 18px;
+    right: 18px;
 }
 
 .links {
@@ -160,6 +169,39 @@ li {
     padding-right: 5px;
 }
 
+.welcome {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.welcome-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 7px solid var(--alt-color);
+}
+
+.welcome-msg {
+    background-color: var(--button-color);
+    border: 4px solid var(--alt-color);
+    border-radius: 25px;
+}
+
+.welcome-bl {
+    width: 30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.welcome-br {
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
 @media (max-width: 1800px) {
     .left-box {
         width: 22%;
@@ -192,6 +234,11 @@ li {
     h2 {
         font-size: larger;
         font-weight: 600;
+    }
+
+    .welcome-img {
+        width: 75%;
+        height: 75%;
     }
 
     .left-box {
@@ -231,6 +278,22 @@ li {
     }
 
     .logo-box {}
+
+    .welcome {
+        display: table-row;
+    }
+
+    .welcome-bl {
+        width: 50%;
+        padding-bottom: 5%;
+        position: relative;
+        left: 25%;
+    }
+
+    .welcome-br {
+        width: 100%;
+        padding-bottom: 5%;
+    }
 
     .logos {
         width: 6%;
