@@ -151,7 +151,7 @@ li {
         width: 22%;
     }
     .right-box {
-        width: 22%;
+        width: 33%;
     }
 }
 
@@ -181,7 +181,7 @@ li {
     }
 
     .left-box {
-        width: 35%;
+        width: 25%;
     }
 
     .right-box {
@@ -215,6 +215,8 @@ li {
     .right-box {
         width: 10%;
     }
+
+    .logo-box {}
 
     .logos {
         width: 6%;
