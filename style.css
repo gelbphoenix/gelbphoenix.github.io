@@ -85,6 +85,15 @@ li {
     display: none;
 }
 
+.links {
+    padding: 5px;
+    font-size: larger;
+    width: 100%;
+    display: row;
+    border-radius: 50px;
+    background-color: #a0a0a0;
+}
+
 .link-dropnav {
     text-align: center;
     width: 100%;
