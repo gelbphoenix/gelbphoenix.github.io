@@ -58,6 +58,7 @@ li {
     width: 15%;
     padding-right: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
@@ -76,6 +77,11 @@ li {
 .link-menulist {
     text-align: center;
     display: flex;
+}
+
+.link-menulist li {
+    padding: 0px;
+    padding-right: 5px;
 }
 
 .link-menulist a{
@@ -105,12 +111,12 @@ li {
     border-radius: 50px;
 }
 
-.link-menu a{
+.link-menu a {
     display: flex;
     align-items: center;
 }
 
-.mobilenav-1{
+.mobilenav-1 {
     display: none !important;
     text-align: right;
     background-color: var(--button-color);
@@ -395,7 +401,7 @@ li {
     .logo-box {
         padding: 4px;
     }
-    
+
     .link-menu {
         display: none;
     }
