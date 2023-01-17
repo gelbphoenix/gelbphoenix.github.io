@@ -6,6 +6,7 @@
     --font-color: #000000;
     --color-drop-menu: rgba(169, 169, 169, 0.95);
     --alt-color: #ED496F;
+    --alt2-color: #ED4DA4;
 }
 
 html {
@@ -19,10 +20,6 @@ a {
     padding: 5px;
     font-weight: 500;
     position: relative;
-}
-
-a:hover{
-    text-decoration: underline;
 }
 
 li {
@@ -81,6 +78,25 @@ li {
     display: flex;
 }
 
+.link-menulist a{
+    position: relative;
+}
+
+.link-menulist a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--alt2-color);
+    position: absolute;
+    left: 12.5%;
+    bottom: 4px;
+    transition: 150ms ease-in-out;
+}
+
+.link-menulist a:hover::after{
+    width: 75%;
+}
+
 .link-menu {
     text-align: center;
     line-height: 100%;
@@ -114,6 +130,25 @@ li {
     z-index: 10;
 }
 
+.mobilenav-2 a{
+    position: relative;
+}
+
+.mobilenav-2 a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--alt2-color);
+    position: absolute;
+    left: 8%;
+    bottom: 5.5px;
+    transition: 150ms ease-in-out;
+}
+
+.mobilenav-2 a:hover::after{
+    width: 85%;
+}
+
 .links {
     padding: 8px;
     font-size: larger;
@@ -121,6 +156,22 @@ li {
     display: row;
     border-radius: 50px;
     background-color: var(--button-color);
+    position: relative;
+}
+
+.links::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--alt2-color);
+    position: absolute;
+    left: 45%;
+    bottom: 7.5px;
+    transition: 150ms ease-in-out;
+}
+
+.links:hover::after{
+    width: 10%;
 }
 
 .logos {
@@ -181,6 +232,25 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-box a{
+    position: relative;
+}
+
+.footer-box a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--alt2-color);
+    position: absolute;
+    left: 4px;
+    bottom: 3px;
+    transition: 150ms ease-in-out;
+}
+
+.footer-box a:hover::after{
+    width: 89%;
 }
 
 .copyright {
@@ -249,6 +319,25 @@ li {
     min-width: 15%;
     max-width: 30%;
     gap: 10px;
+}
+
+.content-box a{
+    position: relative;
+}
+
+.content-box a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--alt2-color);
+    position: absolute;
+    left: 17.5%;
+    bottom: 5px;
+    transition: 150ms ease-in-out;
+}
+
+.content-box a:hover::after{
+    width: 65%;
 }
 
 .box-botton {
