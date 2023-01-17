@@ -174,13 +174,6 @@ li {
     width: 10%;
 }
 
-.logos {
-    padding-top: 2px;
-    width: 3%;
-    height: 70%;
-    object-fit: fill;
-}
-
 .link-dropnav {
     padding: 8px;
     font-size: large;
@@ -347,6 +340,11 @@ li {
     border-radius: 25px;
 }
 
+.code-style {
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
 @media (max-width: 1800px) {
     .left-box {
         width: 22%;
@@ -411,6 +409,10 @@ li {
         font-size: small;
         font-weight: 500;
     }
+
+    .code-style{
+        max-width: 170px;
+    }
 }
 
 @media (max-width: 560px) {    
@@ -456,10 +458,6 @@ li {
     .welcome-br {
         width: 100%;
         padding-bottom: 5%;
-    }
-
-    .logos {
-        width: 6%;
     }
 }
 
