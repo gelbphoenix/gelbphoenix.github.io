@@ -45,6 +45,8 @@ li {
     justify-content:space-between;
     align-items: center;
     background-color: var(--hlight-color);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .logo-box {
@@ -154,12 +156,24 @@ li {
     border-top: 5px solid var(--ground-color);
 }
 
+.container-bottom {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: var(--hlight-color);
+    border-top: 5px solid var(--ground-color);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+} 
+
 .impressum {
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
+    max-width: 581px;
 }
 
 .footer-box {
