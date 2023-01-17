@@ -9,10 +9,10 @@ function navi() {
 
     if (nav.style.display == 'flex') {
         nav.style.display = 'none';
-        menubutton.innerHTML='menu';
+        menubutton.src='./index/icons/menu.png';
     } else {
         nav.style.display = 'flex';
-        menubutton.innerHTML='clear';
+        menubutton.src='./index/icons/close.png';
     };
 }
 
