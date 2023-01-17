@@ -428,7 +428,17 @@ li {
 
     .welcome, .content-bar {
         width: 100%;
-        display: table-row;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .welcome {
+        flex-wrap: wrap-reverse;
+    }
+
+    .content-bar {
+        flex-wrap: wrap;
     }
 
     .content-box {
@@ -448,6 +458,7 @@ li {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .welcome-bl {
         width: 50%;
         padding-bottom: 5%;
@@ -458,6 +469,11 @@ li {
     .welcome-br {
         width: 100%;
         padding-bottom: 5%;
+    }
+
+    
+    .code-style{
+        max-width: 100%;
     }
 }
 
