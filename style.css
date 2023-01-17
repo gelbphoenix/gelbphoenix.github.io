@@ -439,6 +439,8 @@ li {
 
     .content-bar {
         flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .content-box {
@@ -450,6 +452,7 @@ li {
         justify-content: center;
         align-items: center;
         max-width: 100%;
+        min-width: 25%;
         position: relative;
         left: 1px;
     }
@@ -460,6 +463,7 @@ li {
     }
 
     .welcome-bl {
+        padding-left: 0;
         width: 50%;
         padding-bottom: 5%;
         position: relative;
@@ -477,6 +481,18 @@ li {
     }
 }
 
+@media (max-width: 425px) {
+    .welcome-bl {
+        max-width: 100%;
+    }
+
+    .welcome-img {
+        width: 100%;
+        height: 100%;
+        left: 25%;
+    }
+}
+
 @media (max-width: 375px) {
     .logos {
         width: 7%;
@@ -484,6 +500,21 @@ li {
 
     h1 {
         font-size: x-large;
+    }
+
+    .welcome, .content-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .welcome {
+        flex-wrap: wrap-reverse;
+    }
+
+    .content-bar {
+        flex-wrap: wrap;
     }
 }
 
@@ -499,5 +530,14 @@ li {
 
     h2 {
         font-size: large;
+    }
+
+    .content-bar {
+        flex-direction: column;
+        column-gap: 20px;
+    }
+
+    .content-box {
+        min-width: 33%;
     }
 }
