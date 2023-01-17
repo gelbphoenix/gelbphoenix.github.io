@@ -232,13 +232,15 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 33%;
-    gap: 3px;
+    min-width: 15%;
+    max-width: 30%;
+    gap: 10px;
 }
 
 .box-botton {
     padding: 7px;
     background-color: var(--button2-color);
+    border: 3.5px solid var(--alt-color);
     border-radius: 25px;
 }
 

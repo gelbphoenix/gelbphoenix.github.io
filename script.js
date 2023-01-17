@@ -22,10 +22,8 @@ function polInfo() {
 
     if (poli.style.display == 'flex') {
         poli.style.display = 'none';
-        pbutton.style.display = 'flex';
     } else {
         poli.style.display = 'flex';
-        pbutton.style.display = 'none';
     };
 }
 
@@ -35,10 +33,8 @@ function codeInfo() {
 
     if (cod.style.display == 'flex') {
         cod.style.display = 'none';
-        cbutton.style.display = 'flex';
     } else {
-        cod.style.display = 'flex';
-        cbutton.style.display = 'none';
+        cod.style.display = 'flex';;
     };
 }
 
@@ -48,9 +44,7 @@ function genInfo() {
 
     if (gen.style.display == 'flex') {
         gen.style.display = 'none';
-        gbutton.style.display = 'flex';
     } else {
         gen.style.display = 'flex';
-        gbutton.style.display = 'none';
     };
 }
