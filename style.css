@@ -522,6 +522,10 @@ ul {
     .code-style{
         max-width: 100%;
     }
+
+    .content-bar {
+        gap: 15px
+    }
 }
 
 @media (max-width: 425px) {
