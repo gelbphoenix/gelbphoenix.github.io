@@ -235,7 +235,7 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
-    margin-top: 2.5px;
+    margin-top: 4px;
 
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
@@ -247,7 +247,7 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
-    margin-top: 2.5px;
+    margin-top: 4px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 
