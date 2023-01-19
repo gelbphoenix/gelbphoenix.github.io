@@ -1,5 +1,4 @@
 :root{
-    --ground-color: #a9a9a99c;
     --hlight-color: #68686877;
     --button-color: #a0a0a0;
     --button2-color: #858585;
@@ -236,10 +235,10 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
-    border-top: 5px solid var(--ground-color);
+    margin-top: 6.5px;
 
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
 }
 
 .container-bottom {
@@ -248,12 +247,12 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
-    border-top: 5px solid var(--ground-color);
+    margin-top: 6.5px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
 }
 
 .impressum {
