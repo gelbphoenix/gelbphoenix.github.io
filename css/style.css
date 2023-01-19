@@ -387,7 +387,7 @@ ul {
     border-radius: 25px;
 }
 
-.code-style {
+.code-style, .politic-info {
     padding-left: 10px; 
     padding-right: 10px;
 }
