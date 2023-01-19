@@ -263,6 +263,9 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
+    border-radius: 25px;
+    -webkit-backdrop-filter: blur(0.01rem);
+    backdrop-filter: blur(0.01rem);
     max-width: 581px;
 }
 
