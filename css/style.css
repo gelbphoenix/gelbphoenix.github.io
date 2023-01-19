@@ -7,6 +7,7 @@
     --color-drop-menu: #a9a9a9c9;
     --alt-color: #ED496F;
     --alt2-color: #ED4DA4;
+    --heading-color: #a0a0a02f;
 }
 
 html {
@@ -253,7 +254,7 @@ ul {
 
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-} 
+}
 
 .impressum {
     padding: 5px;
@@ -409,4 +410,14 @@ ul {
     right: 1.2px;
     display: flex;
     justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 3px 7px;
+    background-color: var(--heading-color);
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(.5px);
+    backdrop-filter: blur(.5px);
 }
