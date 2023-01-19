@@ -53,6 +53,9 @@ ul {
     background-color: var(--hlight-color);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    
+    -webkit-backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.5rem);
 }
 
 .logo-box {
@@ -236,8 +239,8 @@ ul {
     background-color: var(--hlight-color);
     margin-top: 4px;
 
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.5rem);
 }
 
 .container-bottom {
@@ -250,8 +253,8 @@ ul {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.5rem);
 }
 
 .impressum {
