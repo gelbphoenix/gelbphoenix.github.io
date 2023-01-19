@@ -235,7 +235,7 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
-    margin-top: 6.5px;
+    margin-top: 2.5px;
 
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
@@ -247,7 +247,7 @@ ul {
     padding-right: 20px;
     text-align: center;
     background-color: var(--hlight-color);
-    margin-top: 6.5px;
+    margin-top: 2.5px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 
@@ -265,8 +265,9 @@ ul {
 }
 
 .footer-box {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 2.5px;
     display: flex;
     justify-content: center;
     align-items: center;
