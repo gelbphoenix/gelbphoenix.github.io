@@ -3,6 +3,7 @@ document.getElementById('button-pol').addEventListener("click", polInfo);
 document.getElementById('button-cod').addEventListener("click", codeInfo);
 document.getElementById('button-gen').addEventListener("click", genInfo);
 
+// Funktion for the Dropnav
 function navi() {
     const nav = document.getElementById('mobil');
     const menubutton = document.getElementById('menubutton');
@@ -16,6 +17,7 @@ function navi() {
     };
 }
 
+// Function for Politik info
 function polInfo() {
     const poli = document.getElementById('politic-infos');
     const pbutton = document.getElementById('button-pol');
@@ -27,6 +29,7 @@ function polInfo() {
     };
 }
 
+// Function for coding info
 function codeInfo() {
     const cod = document.getElementById('code-infos');
     const cbutton = document.getElementById('button-cod');
@@ -38,6 +41,7 @@ function codeInfo() {
     };
 }
 
+// Function for general info
 function genInfo() {
     const gen = document.getElementById('general-infos');
     const gbutton = document.getElementById('button-gen');
