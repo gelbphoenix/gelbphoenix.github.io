@@ -330,7 +330,7 @@ ul {
     gap: 4px;
 }
 
-.content-box {
+.content-box, .content-box-map {
     padding: 5px;
     background-color: var(--button-color);
     border: 4px solid var(--alt-color);
@@ -486,7 +486,7 @@ ul {
         padding-right: 0;
     }
 
-    .content-box {
+    .content-box, .content-box-map {
         background-color: var(--button-color);
         border: 4px solid var(--alt-color);
         border-radius: 25px;
@@ -518,13 +518,8 @@ ul {
         padding-bottom: 5%;
     }
 
-    
-    .code-style{
+    .code-style {
         max-width: 100%;
-    }
-
-    .content-bar {
-        gap: 15px
     }
 }
 
