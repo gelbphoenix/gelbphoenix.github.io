@@ -73,10 +73,6 @@
         width: 25%;
     }
 
-    .logo-box {
-        width: auto;
-    }
-
     .welcome, .content-bar {
         width: 100%;
         display: flex;
