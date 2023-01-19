@@ -1,6 +1,6 @@
 :root{
-    --ground-color: #a9a9a9;
-    --hlight-color: #808080;
+    --ground-color: #a9a9a99c;
+    --hlight-color: #68686877;
     --button-color: #a0a0a0;
     --button2-color: #858585;
     --font-color: #000000;
@@ -10,7 +10,11 @@
 }
 
 html {
-    background-color: var(--ground-color);
+    background: url(/index/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     z-index: 0;
 }
 
@@ -228,6 +232,9 @@ ul {
     text-align: center;
     background-color: var(--hlight-color);
     border-top: 5px solid var(--ground-color);
+
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 .container-bottom {
@@ -239,6 +246,9 @@ ul {
     border-top: 5px solid var(--ground-color);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 } 
 
 .impressum {
