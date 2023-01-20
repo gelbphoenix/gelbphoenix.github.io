@@ -151,6 +151,7 @@ ul {
     backdrop-filter: blur(0.5rem);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .mobilenav-2 a{
