@@ -3,7 +3,7 @@
     --button-color: #a0a0a0;
     --button2-color: #858585;
     --font-color: #000000;
-    --color-drop-menu: #a9a9a9c9;
+    --color-footer: #a9a9a987;
     --alt-color: #ED496F;
     --alt2-color: #ED4DA4;
     --heading-color: #a0a0a02f;
@@ -277,8 +277,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-drop-menu);
+    background-color: var(--color-footer);
     border-radius: 50px;
+    -webkit-backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.5rem);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-box a{
