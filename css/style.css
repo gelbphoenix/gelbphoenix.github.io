@@ -53,8 +53,8 @@ ul {
     background-color: var(--hlight-color);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    border-left: .5px solid rgba(255, 255, 255, 0.2);
-    border-top: .5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -239,7 +239,7 @@ ul {
     text-align: center;
     background-color: var(--hlight-color);
     margin-top: 4px;
-    border-left: .5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -253,7 +253,7 @@ ul {
     margin-top: 4px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    border-left: .5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -267,7 +267,7 @@ ul {
     border-radius: 25px;
     -webkit-backdrop-filter: blur(0.01rem);
     backdrop-filter: blur(0.01rem);
-    max-width: 581px;
+    max-width: 30rem;
 }
 
 .footer-box {
