@@ -205,13 +205,13 @@ ul {
     width: 0%;
     background: var(--alt2-color);
     position: absolute;
-    left: 45%;
+    left: 42.5%;
     bottom: 7.5px;
     transition: 150ms ease-in-out;
 }
 
 .links:hover::after{
-    width: 10%;
+    width: 15%;
 }
 
 .link-dropnav {
