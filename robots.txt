@@ -1,0 +1,5 @@
+# robots.txt zu https://gelbphoenix.github.io/
+
+User-agent: *
+Allow: /
+Disallow: /css/
