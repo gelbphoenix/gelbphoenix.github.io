@@ -212,6 +212,11 @@ ul {
     border-radius: 50px;
     background-color: var(--button-color);
     position: relative;
+    transition: 0.15s ease-in-out;
+}
+
+.links:hover {
+    background-color: #a0a0a0b7;
 }
 
 .links::after{
