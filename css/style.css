@@ -324,7 +324,12 @@ ul {
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    border: 7px solid var(--alt-color);
+    border: 5px solid var(--alt-color);
+    transition: transform 0.2s ease-in-out;
+}
+
+.welcome-img:hover {
+    transform: scale(1.1);
 }
 
 .welcome-msg {
