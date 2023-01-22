@@ -65,6 +65,11 @@ ul {
 
 .left-box {
     width: 17%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.left-box:hover {
+    transform: scale(1.1);
 }
 
 .right-box {
