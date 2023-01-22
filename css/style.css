@@ -345,11 +345,12 @@ ul {
     height: 50%;
     border-radius: 50%;
     border: 5px solid var(--alt-color);
-    transition: transform 0.2s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .welcome-img:hover {
     transform: scale(1.1);
+    border-radius: 25%;
 }
 
 .welcome-msg {
