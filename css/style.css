@@ -151,7 +151,7 @@ ul {
 }
 
 .mobilenav-1:hover {
-    background-color: #a0a0a07a;
+    background-color: var(--button2-color);
 }
 
 .mobilenav-2 {
