@@ -9,7 +9,7 @@
     --heading-color: #a0a0a02f;
 }
 
-html {
+html /*fallback*/ {
     background: url(/index/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
