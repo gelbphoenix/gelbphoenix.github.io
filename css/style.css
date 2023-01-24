@@ -10,7 +10,6 @@
 }
 
 html {
-    position: absolute;
     scrollbar-gutter: stable;
 }
 
@@ -40,6 +39,7 @@ ul {
     padding-right: 10px;
     padding-bottom: 5px;
     font-family: 'Ubuntu', sans-serif;
+    align-items: center;
 }
 
 .header-box {
@@ -69,7 +69,7 @@ ul {
 
 .logo-img1 {
     padding: 8px;
-    width: 150%;
+    width: 105%;
     height: 140px;
     object-fit: cover;
     object-position: 50% 43%;
