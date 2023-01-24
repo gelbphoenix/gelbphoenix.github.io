@@ -11,6 +11,7 @@
 
 html {
     position: absolute;
+    scrollbar-gutter: stable;
 }
 
 a {
