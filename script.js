@@ -10,11 +10,8 @@ function getBackground() {
     "background2.jpg",
     "background3.jpg"
   ];
-
   let randomIndex = Math.floor(Math.random() * backgrounds.length);
-
   const chosenBackground = backgrounds[randomIndex];
-
   document.querySelector("html").style.background = "url(/index/background/" + chosenBackground +") no-repeat center fixed";
   document.querySelector("html").style.backgroundSize = "cover";
   document.querySelector("html").style.zIndex = "0";
