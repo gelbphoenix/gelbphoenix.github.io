@@ -15,6 +15,12 @@
 }
 
 @media (max-width: 900px) {
+    .groundpage {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        touch-action: pan-y;
+    }
+
     .header-box {
         flex-direction: row;
         padding: 5px;
@@ -59,7 +65,7 @@
     .link-menu {
         display: none;
     }
-    
+
     .mobilenav-1 {
         display: block !important;
         padding: 4px;
