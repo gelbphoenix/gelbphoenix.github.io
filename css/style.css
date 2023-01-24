@@ -9,15 +9,6 @@
     --heading-color: #a0a0a02f;
 }
 
-html /*fallback*/ {
-    background: url(/index/background/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    z-index: 0;
-}
-
 a {
     color: var(--font-color);
     text-decoration: none;
