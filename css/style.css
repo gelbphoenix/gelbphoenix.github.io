@@ -10,7 +10,7 @@
 }
 
 html /*fallback*/ {
-    background: url(/index/background.jpg);
+    background: url(/index/background/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
