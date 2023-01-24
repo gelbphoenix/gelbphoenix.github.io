@@ -55,10 +55,6 @@ ul {
     backdrop-filter: blur(0.5rem);
 }
 
-.logo-box {
-    height: auto;
-}
-
 .left-box {
     width: 17%;
 }
