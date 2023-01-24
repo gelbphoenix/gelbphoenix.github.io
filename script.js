@@ -4,6 +4,7 @@ document.getElementById('menubutton').addEventListener("click", toggleDisplay.bi
 document.getElementById('button-pol').addEventListener("click", toggleDisplay.bind(null, 'politic-infos'));
 document.getElementById('button-cod').addEventListener("click", toggleDisplay.bind(null, 'code-infos'));
 document.getElementById('button-gen').addEventListener("click", toggleDisplay.bind(null, 'general-infos'));
+document.getElementById('button-webp').addEventListener("click", toggleDisplay.bind(null, 'webp-infos'));
 
 function getBackground() {
   let backgrounds = [
