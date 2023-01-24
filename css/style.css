@@ -9,6 +9,10 @@
     --heading-color: #a0a0a02f;
 }
 
+html {
+    position: absolute;
+}
+
 a {
     color: var(--font-color);
     text-decoration: none;
