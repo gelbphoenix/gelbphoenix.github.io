@@ -1,6 +1,22 @@
+@media (min-width: 2300px) {
+    .logo-img1 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 2000px) {
+    .logo-img1 {
+        width: 100%;
+    }
+}
+
 @media (max-width: 1800px) {
     .left-box {
         width: 22%;
+    }
+
+    .logo-img1 {
+        width: 125%;
     }
 
     .right-box {
