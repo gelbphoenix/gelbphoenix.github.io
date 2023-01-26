@@ -68,9 +68,8 @@ ul {
 }
 
 .logo-img1 {
-    padding: 4px;
     width: 105%;
-    height: 5.5rem;
+    height: 7.5rem;
     object-fit: cover;
     object-position: 50% 43%;
 }
