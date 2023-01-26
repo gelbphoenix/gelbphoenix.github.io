@@ -1,12 +1,13 @@
 @media (min-width: 2300px) {
     .logo-img1 {
-        width: 90%;
+        width: 80%;
+        height: 200px;
     }
 }
 
-@media (max-width: 2000px) {
+@media (2800px > width > 2000px) {
     .logo-img1 {
-        width: 90%;
+        width: 110%;
     }
 }
 
