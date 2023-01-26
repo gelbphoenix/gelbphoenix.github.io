@@ -27,6 +27,12 @@
     }
 }
 
+@media (1500px > width > 900px) {
+    .logo-img1 {
+        height: 8rem;
+    }
+}
+
 @media (max-width: 900px) {
     .groundpage {
         padding-top: 10px;
