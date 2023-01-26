@@ -6,7 +6,11 @@
 
 @media (max-width: 2000px) {
     .logo-img1 {
-        width: 100%;
+        width: 103%;
+    }
+
+    .welcome-img:hover {
+        transform: scale(1);
     }
 }
 
