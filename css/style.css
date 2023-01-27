@@ -50,8 +50,8 @@ ul {
     align-items: center;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    border-left: 1.5px solid rgba(255, 255, 255, 0.2);
-    border-top: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.35);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.35);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -84,6 +84,7 @@ ul {
 
 .logo-img2 {
     display: none;
+    border-radius: 5rem;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -270,7 +271,7 @@ ul {
     background-color: var(--hlight2-color);
     text-align: center;
     margin-top: 4px;
-    border-left: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.35);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -284,7 +285,7 @@ ul {
     margin-top: 4px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    border-left: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.35);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
