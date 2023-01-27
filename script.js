@@ -10,7 +10,8 @@ function getBackground() {
   let backgrounds = [
     "background.jpg",
     "background2.jpg",
-    "background3.jpg"
+    "background3.jpg",
+    "background4.jpg"
   ];
   let randomIndex = Math.floor(Math.random() * backgrounds.length);
   const chosenBackground = backgrounds[randomIndex];
