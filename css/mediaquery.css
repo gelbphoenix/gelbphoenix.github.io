@@ -27,6 +27,13 @@
     }
 }
 
+
+@media (1500px > width > 1315px) {
+    .welcome-img:hover {
+        transform: scale(1);
+    }
+}
+
 @media (1500px > width > 900px) {
     .logo-img1 {
         height: 9rem;
@@ -152,6 +159,10 @@
     .welcome-br {
         width: 100%;
         padding-bottom: 5%;
+    }
+
+    .welcome-img:hover {
+        transform: scale(1);
     }
 
     .code-style {
