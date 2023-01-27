@@ -1,12 +1,12 @@
 :root{
-    --hlight-color: #68686877;
+    --hlight-color: #9b9b9b33;
     --button-color: #a0a0a0;
     --button2-color: #858585;
     --font-color: #000000;
     --color-footer: #a9a9a987;
     --alt-color: #ED496F;
     --alt2-color: #ED4DA4;
-    --heading-color: #a0a0a02f;
+    --heading-color: #8b8b8b7e;
 }
 
 html {
@@ -46,7 +46,6 @@ ul {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: var(--hlight-color);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
@@ -68,10 +67,13 @@ ul {
 }
 
 .logo-img1 {
-    width: 105%;
-    height: 7.5rem;
+    width: 15rem;
+    padding: 2.5px 0;
+    background-color: var(--hlight-color);
+    border-radius: 30px;
+    height: 6.5rem;
     object-fit: cover;
-    object-position: 50% 43%;
+    object-position: 50% 41.5%;
 }
 
 .logo-img2 {
@@ -147,6 +149,7 @@ ul {
 
 .mobilenav-2 {
     padding: 5px;
+    background-color: var(--hlight-color);
     justify-content: center;
     display: none;
     position: absolute;
@@ -259,7 +262,6 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    background-color: var(--hlight-color);
     margin-top: 4px;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
@@ -271,7 +273,6 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    background-color: var(--hlight-color);
     margin-top: 4px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
