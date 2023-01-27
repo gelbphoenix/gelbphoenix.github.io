@@ -1,5 +1,6 @@
 :root{
     --hlight-color: #9b9b9b33;
+    --hlight2-color: #85858533;
     --button-color: #a0a0a0;
     --button2-color: #858585;
     --font-color: #000000;
@@ -44,6 +45,7 @@ ul {
 
 .header-box {
     display: flex;
+    background-color: var(--hlight2-color);
     justify-content:space-between;
     align-items: center;
     border-top-left-radius: 25px;
@@ -74,6 +76,8 @@ ul {
     height: 6.5rem;
     object-fit: cover;
     object-position: 50% 41.5%;
+    border-left: .5px solid rgba(255, 255, 255, 0.2);
+    border-top: .5px solid rgba(255, 255, 255, 0.2);
 }
 
 .logo-img2 {
@@ -261,6 +265,7 @@ ul {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: var(--hlight2-color);
     text-align: center;
     margin-top: 4px;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
@@ -272,6 +277,7 @@ ul {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: var(--hlight2-color);
     text-align: center;
     margin-top: 4px;
     border-bottom-left-radius: 25px;
