@@ -161,25 +161,6 @@ ul {
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 
-.mobilenav-2 a{
-    position: relative;
-}
-
-.mobilenav-2 a::after{
-    content: '';
-    height: 2px;
-    width: 0%;
-    background: var(--alt2-color);
-    position: absolute;
-    left: 8%;
-    bottom: 5.5px;
-    transition: 150ms ease-in-out;
-}
-
-.mobilenav-2 a:hover::after{
-    width: 85%;
-}
-
 .mobilenav-2 ul {
     width: 100%;
     padding: 0;
@@ -248,6 +229,25 @@ ul {
 
 .link-dropnav-container:hover {
     background-color: var(--button-color);
+}
+
+.link-dropnav-container a{
+    position: relative;
+}
+
+.link-dropnav-container a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--alt2-color);
+    position: absolute;
+    left: 8%;
+    bottom: 5.5px;
+    transition: 150ms ease-in-out;
+}
+
+.link-dropnav-container a:hover::after{
+    width: 85%;
 }
 
 .main-body {
