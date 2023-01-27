@@ -50,8 +50,8 @@ ul {
     align-items: center;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -71,13 +71,15 @@ ul {
 .logo-img1 {
     width: 15rem;
     padding: 2.5px 0;
+    margin-top: .5px;
+    margin-left: 1px;
     background-color: var(--hlight-color);
     border-radius: 30px;
     height: 6.5rem;
     object-fit: cover;
     object-position: 50% 41.5%;
-    border-left: .5px solid rgba(255, 255, 255, 0.2);
-    border-top: .5px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .logo-img2 {
@@ -268,7 +270,7 @@ ul {
     background-color: var(--hlight2-color);
     text-align: center;
     margin-top: 4px;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
@@ -282,7 +284,7 @@ ul {
     margin-top: 4px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(0.5rem);
     backdrop-filter: blur(0.5rem);
 }
