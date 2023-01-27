@@ -27,7 +27,6 @@
     }
 }
 
-
 @media (1500px > width > 1150px) {
     .welcome-img:hover {
         transform: scale(1);
