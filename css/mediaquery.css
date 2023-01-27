@@ -112,6 +112,11 @@
         width: 25%;
     }
 
+    .mobilenav-2 ul {
+        height: 27.7rem;
+        gap: 25px;
+    }
+
     .welcome, .content-bar {
         width: 100%;
         display: flex;
