@@ -101,6 +101,12 @@
     }
 }
 
+@media (900px > width > 830px) {
+    .welcome-img:hover {
+        transform: scale(1);
+    }
+}
+
 @media (max-width: 560px) {    
     .left-box {
         width: 25%;
