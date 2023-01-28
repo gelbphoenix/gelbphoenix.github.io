@@ -1,5 +1,5 @@
 :root{
-    --hlight-color: #9b9b9b33;
+    --hlight-color: #6b6b6b73;
     --hlight2-color: #85858533;
     --button-color: #a0a0a0;
     --button2-color: #858585;
@@ -94,12 +94,14 @@ ul {
 
 .link-menulist {
     text-align: center;
+    position: relative;
+    right: 5px;
     display: flex;
+    gap: 0.5rem
 }
 
 .link-menulist li {
     padding: 0px;
-    padding-right: 5px;
 }
 
 .link-menulist a{
@@ -133,7 +135,7 @@ ul {
 }
 
 .link-menu:hover {
-    background-color: #a0a0a0b7;
+    transform: scale(1.1);
 }
 
 .link-menu a {
@@ -190,10 +192,13 @@ ul {
 }
 
 .links {
-    padding: 8px;
+    padding: 4px;
+    text-align: center;
     font-size: larger;
+    font-weight: 400;
     width: 100%;
     display: row;
+    row-gap: 4px;
     border-radius: 50px;
     background-color: var(--button-color);
     position: relative;
@@ -201,7 +206,7 @@ ul {
 }
 
 .links:hover {
-    background-color: #a0a0a0b7;
+    transform: scale(1.025);
 }
 
 .links::after{
@@ -211,7 +216,7 @@ ul {
     background: var(--alt2-color);
     position: absolute;
     left: 42.5%;
-    bottom: 7.5px;
+    bottom: 4px;
     transition: 150ms ease-in-out;
 }
 
@@ -228,7 +233,7 @@ ul {
 
 .link-dropnav-container {
     padding: 4px;
-    background-color: var(--button2-color);
+    background-color: var(--button-color);
     border-radius: 50px;
     width: 100%;
     align-items: center;
@@ -238,7 +243,7 @@ ul {
 }
 
 .link-dropnav-container:hover {
-    background-color: var(--button-color);
+    transform: scale(1.05);
 }
 
 .link-dropnav-container a{
