@@ -172,6 +172,10 @@
     .code-style {
         max-width: 100%;
     }
+
+    .projects-bar {
+        right: 1.5rem;
+    }
 }
 
 @media (max-width: 425px) {

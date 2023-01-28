@@ -480,3 +480,11 @@ ul {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+.projects-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    gap: 10px;
+}
