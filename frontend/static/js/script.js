@@ -6,8 +6,10 @@ document.getElementById("mobil-link").addEventListener("click", () => {
 
   if (element.style.display === "flex") {
     element.style.display = "none";
-  } else {
-    console.log("Error: Mobilnav can't be closed.")
+    if (id === "mobil") {
+      const mb = document.getElementById('menubutton')
+      mb.src='../frontend/index/icons/menu.png';
+    }
   }
 });
 
