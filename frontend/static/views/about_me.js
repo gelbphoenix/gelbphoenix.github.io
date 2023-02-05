@@ -9,13 +9,13 @@ export default class extends AbstractView {
     async getHtml() {
         return `
             <section class="container-bottom" id="about_me">
-                <div style="display: flex; justify-content: center;">
+                <div>
                     <h3 class="heading">
                         Über mich:
                     </h3>
                 </div>
-                <div class="content-bar">
-                    <div class="content-box">
+                <div class="content-bar" style="align-items: flex-start;">
+                    <div class="content-am">
                         <h4>Politik:</h4>
                         <div id="politic-infos" style="flex-direction: column;">
                             <p>
@@ -24,7 +24,7 @@ export default class extends AbstractView {
                             </p>
                         </div>
                     </div>                    
-                    <div class="content-box">
+                    <div class="content-am">
                         <h4>Coding:</h4>
                         <div id="code-infos" class="code-style" style="display:flex; flex-direction: column;">
                             <p>
@@ -36,7 +36,7 @@ export default class extends AbstractView {
                             </a>
                         </div>
                     </div>                    
-                    <div class="content-box">
+                    <div class="content-am">
                         <h4>Generell:</h4>
                         <div id="general-infos" style="padding-left: 5px; padding-right: 5px;">
                             <p>

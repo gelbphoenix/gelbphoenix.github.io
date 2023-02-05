@@ -506,3 +506,14 @@ ul {
     justify-content: center;
     gap: 10px;
 }
+
+.content-am {
+    padding: 5px;
+    background-color: var(--button-color);
+    border: 4px solid var(--alt-color);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 29%;
+}
