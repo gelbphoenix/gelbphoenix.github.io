@@ -49,7 +49,7 @@ export default class extends AbstractView {
                                 </a>
                             </div>
                             <div style="padding-top: 25px;">
-                                <a href="mailto:phoenix@gelbphoenix.de" class="box-botton">
+                                <a href="mailto:phoenix.schmid@fn.de" class="box-botton">
                                     <span style="font-style: italic;">E-Mail</span>
                                 </a>
                             </div>

@@ -38,7 +38,7 @@ export default class extends AbstractView {
                         Projekte:
                     </h3>
                 </div>
-                <div class="content-bar projects-bar">
+                <div class="projects-bar">
                     <div class="content-box">
                         <h4 style="margin-block-start: 0.5rem; margin-block-end: 0;">Diese Webpage (Version 1.0)</h4>
                         <img src="/frontend/index/favicon.png" style="width: 2.5rem;">
